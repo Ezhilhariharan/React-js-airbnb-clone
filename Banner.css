@@ -1,0 +1,39 @@
+﻿.Banner {
+    background: url('/banner.jfif') center center;
+    position: relative;
+    height:50vh;
+}
+
+.Banner-info {
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    width: 300px;
+}
+.Banner-info > Button{
+    background-color: #ff7779;
+    color:white;
+    text-transform:inherit;
+    margin-top:20px;
+    font-weight:600;
+}
+    .Banner-info > Button:hover {
+        background-color: white;
+        color: #ff7779;
+    }
+    .Banner-info > h5 {
+        margin-top: 10px;
+    }
+.Banner-searchbutton {
+    background-color: white !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    font-weight: 900 !important;
+}
+.Banner-search{
+    display:flex;
+    flex-direction:column;
+}
